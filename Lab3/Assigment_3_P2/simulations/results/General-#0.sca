@@ -1,0 +1,32 @@
+version 3
+run General-0-20231028-01:07:51-51517
+attr configname General
+attr datetime 20231028-01:07:51
+attr datetimef 20231028-010751
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network lab03_p2.Network
+attr processid 51517
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network lab03_p2.Network
+config Network.N 8
+
+par Network.nodes[0] typename "\"lab03_p2.Node\""
+par Network.nodes[1] typename "\"lab03_p2.Node\""
+par Network.nodes[2] typename "\"lab03_p2.Node\""
+par Network.nodes[3] typename "\"lab03_p2.Node\""
+par Network.nodes[4] typename "\"lab03_p2.Node\""
+par Network.nodes[5] typename "\"lab03_p2.Node\""
+par Network.nodes[6] typename "\"lab03_p2.Node\""
+par Network.nodes[7] typename "\"lab03_p2.Node\""
+par Network typename "\"lab03_p2.Network\""
+par Network N 8
+
